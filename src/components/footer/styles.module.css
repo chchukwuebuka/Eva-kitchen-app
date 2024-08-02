@@ -1,0 +1,69 @@
+.footer{
+      justify-content: center;
+      align-items: center;
+      margin: 0px;
+      background-color: #645143;
+      padding: 20px 0px;
+}
+
+.evaFooter{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.evaKitchenLogo1{
+      display: block;
+	width: 150px;
+	height: 40px;
+      margin-bottom: 160px;
+}
+
+.evaFooter1{
+      height: 199.28px;
+      top: 4523.04px;
+      text-align: left;
+      /* left: 350px; */
+      }
+
+.evaFooter1 h4{
+font-size: 22px;
+font-weight: 600;
+line-height: 40px;
+color: #FFFFFF;
+}
+
+.evaFooter1 p{
+      font-family: Open Sans;
+font-size: 18px;
+font-weight: 200;
+line-height: 40px;
+text-align: left;
+color: #FFFFFF;
+}
+
+.evaIcons{
+      display: flex;
+}
+
+.evaIcons1{
+      width: 18px;
+height: 18px;
+margin-top: 10px;
+margin-right: 10px;
+}
+
+.evaFooterImg{
+      margin: 10px 10px;
+}
+
+.footerCopyright{
+      text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 40px;
+margin-top: 30px;
+color: #FFFFFF;
+}
+

@@ -1,0 +1,34 @@
+
+    .container{
+      display: flex;
+      justify-content: space-between;
+      background-color: transparent;
+    }
+
+    .EvaKitchenlogo{
+      display: block;
+	width: 150px;
+	height: 40px;
+	margin-left: 4rem;
+  margin-top: 10px;
+    }
+
+    .container ul {
+      display: flex;
+      gap: 60px;
+      list-style-type: none;
+      align-items: center;
+      margin-right: 4rem;
+      margin-top: 10px;
+    }
+    
+    .linkItem {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .linkItem:hover {
+      border-bottom: 2px  #FF7913 solid ;
+    }
+    

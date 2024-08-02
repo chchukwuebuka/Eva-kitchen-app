@@ -1,0 +1,65 @@
+.orders {
+  justify-content: center;
+      align-items: center;
+      align-content: center;
+      background: #6451430D;
+}
+
+.delivery {
+  margin-top: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.delivery p{
+font-size: 18px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0.35em;
+color: #FF8D23;
+}
+
+.delivery h2{
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+color: #000000;
+}
+
+.orderCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dining,
+.car {
+  width: 87.83px;
+  height: 87.83px;
+}
+
+.cards{
+      width: 184.58px;
+height: 214.44px; 
+top: 2462px;
+left: 228px;
+margin: 40px 40px;
+margin-bottom: 120px;
+text-align: center;
+background-color: #ffffff;
+}
+
+.cards h5{
+font-size: 20.74px;
+font-weight: 700;
+line-height: 36.01px;
+color: #484848;
+
+}
+
+.cards p{
+font-size: 10.81px;
+font-weight: 600;
+line-height: 18.97px;
+color: #717171;
+}

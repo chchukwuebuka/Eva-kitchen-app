@@ -1,0 +1,100 @@
+.menu{
+      justify-content: center;
+      align-items: center;
+      margin: auto 0px;
+}
+
+.choosemenu{
+      text-align: center;
+}
+
+.choosemenu h2{
+      font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+color: #000000;
+}
+
+.choosemenu p{
+      font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0.35em;
+color: #FF7913;
+}
+
+.menu1{
+      display: grid ;
+      grid-template-columns: repeat(auto-fill, minmax(255px, 3fr));
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      margin: 50px;
+}
+
+.menu1 img{
+      width: 301px;
+height: 322.56px; 
+height: auto; 
+top: 3806px;
+left: 138px;
+border-radius: 30px 30px 0px 0px;
+
+}
+
+.menucard{
+      width: 301px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 6px 60px 0px #0000001A;
+      margin-left: 1.5rem;
+}
+
+.menucard p{
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 40px;
+      text-align: left;
+      padding-left: 16px;  
+      color: #00000099;
+}
+
+.orderBTN{
+      display: flex;
+  justify-content: center;
+}
+
+.menucard1{
+      display: flex;
+      justify-content: space-between;
+      padding-left: px;
+      padding-right: 16px;
+}
+
+.menucard2{
+      height: 120px;
+}
+
+.menufood{
+      font-family: Open Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+color: #000000;
+
+}
+
+.menuprice{
+      font-family: Poppins;
+font-size: 22px;
+font-weight: 600;
+line-height: 40px;
+}
+
+.menuprice span{
+      color: #FF7913;
+}
