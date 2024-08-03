@@ -3,6 +3,8 @@
       display: flex;
       justify-content: space-between;
       background-color: transparent;
+      /* position: fixed;
+      top: 0; */
     }
 
     .EvaKitchenlogo{
@@ -15,6 +17,7 @@
 
     .container ul {
       display: flex;
+      
       gap: 60px;
       list-style-type: none;
       align-items: center;
@@ -30,5 +33,10 @@
 
     .linkItem:hover {
       border-bottom: 2px  #FF7913 solid ;
+    }
+
+    .navlink{
+      color: #000000;
+      text-decoration: none;
     }
     

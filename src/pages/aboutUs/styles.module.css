@@ -1,0 +1,150 @@
+.AboutUssection{
+      justify-content: center;
+  align-items: center;
+  margin: auto 0px;
+  background-image: url(../../assets/images/chef.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  height: 100vh;  
+}
+
+.AboutUssection1{
+font-size: 26px;
+font-weight: 700;
+line-height: 84px;
+width: 1025px;
+height: 168px;
+color: #ffffff;
+justify-content: center;
+align-items: center;
+padding-top: 190px;
+padding-left: 70px;
+}
+
+.AboutUs {
+      justify-content: center;
+      align-items: center;
+      margin: auto 0;
+    }
+    
+    .AboutUsPage {
+      text-align: center; 
+      margin-top: 70px;
+    }
+    
+    .AboutUsPage h3{
+      font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000000;
+    }
+    
+    .AboutUsPage p{
+      margin-bottom: 10px;
+      font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.35em;
+    color: #FF7913;
+    }
+    
+    .food1 {
+      display: block;
+      width: 350px;
+      height: 350px;
+    }
+    
+    .aboutKit1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 50px;
+      height: 70vh;
+      margin-top: 20px;
+      color: #717171;
+    
+    }
+    
+    .healthy1 {
+      width: 402px;
+      height: 354px;
+      border-radius: 25px 0px 0px 0px;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: justified; 
+      margin-top: 20px;
+    }
+    
+    .healthy2{
+      margin-bottom: 30px;
+    }
+
+    .testimonials{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 60px;
+    }
+
+    .testiCustomer p{
+font-size: 18px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0.35em;
+color: #B900B1;
+text-align: center;
+    }
+
+    .testiCustomer h4{
+      font-family: Poppins;
+font-size: 42px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+
+    }
+
+    .profile{
+      width: 457px;
+height: 207.95px;
+border-radius: 30px 0px 0px 0px;
+box-shadow: 0px 4px 44px 0px #FF791326;
+margin-top: 60px;
+    }
+
+    .profile1{
+      font-family: Open Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+color: #000000B2;
+    }
+
+    .bio{
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    #bio1{
+font-size: 24px;
+font-weight: 600;
+line-height: 26px;
+      color: #FF7913;
+    }
+
+    #bio2{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color: #000000;
+margin-top: 10px;
+    }
+
+    #bioPic{
+      margin-top: 60px;
+    }
