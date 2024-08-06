@@ -1,5 +1,5 @@
 import { lady, pot } from "../../assets";
-import { Footer, Navbar, Order } from "../../components";
+import { Button, Footer, Navbar, Order } from "../../components";
 import styles from "./styles.module.css";
 
 export const AboutUs = () => {
@@ -42,6 +42,9 @@ export const AboutUs = () => {
               brunch, lunch, dinner and, of course, dessert. Always room for
               dessert.
             </p>
+            <div className={styles.BTN}>
+              <Button content="Learn More" className={styles.aboutBTN} />
+            </div>
           </div>
         </div>
       </div>
@@ -61,11 +64,11 @@ export const AboutUs = () => {
             <p id={styles.bio2}>CEO Fiwa Groups</p>
           </div>
         </div>
-       <div id={styles.bioPic}>
-       <img src={lady} alt="" />
-       </div>
+        <div id={styles.bioPic}>
+          <img src={lady} alt="" />
+        </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

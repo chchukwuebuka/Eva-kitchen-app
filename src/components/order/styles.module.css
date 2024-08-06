@@ -1,8 +1,8 @@
 .orders {
   justify-content: center;
-      align-items: center;
-      align-content: center;
-      background: #6451430D;
+  align-items: center;
+  align-content: center;
+  background: #6451430d;
 }
 
 .delivery {
@@ -11,19 +11,19 @@
   text-align: center;
 }
 
-.delivery p{
-font-size: 18px;
-font-weight: 500;
-line-height: 40px;
-letter-spacing: 0.35em;
-color: #FF8D23;
+.delivery p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.35em;
+  color: #ff8d23;
 }
 
-.delivery h2{
-font-size: 32px;
-font-weight: 700;
-line-height: 40px;
-color: #000000;
+.delivery h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #000000;
 }
 
 .orderCards {
@@ -38,28 +38,69 @@ color: #000000;
   height: 87.83px;
 }
 
-.cards{
-      width: 184.58px;
-height: 214.44px; 
-top: 2462px;
-left: 228px;
-margin: 40px 40px;
-margin-bottom: 120px;
-text-align: center;
-background-color: #ffffff;
+.cards {
+  width: 184.58px;
+  height: 214.44px;
+  top: 2462px;
+  left: 228px;
+  margin: 40px 40px;
+  margin-bottom: 120px;
+  text-align: center;
+  background-color: #ffffff;
 }
 
-.cards h5{
-font-size: 20.74px;
-font-weight: 700;
-line-height: 36.01px;
-color: #484848;
-
+.cards h5 {
+  font-size: 20.74px;
+  font-weight: 700;
+  line-height: 36.01px;
+  color: #484848;
 }
 
-.cards p{
-font-size: 10.81px;
-font-weight: 600;
-line-height: 18.97px;
-color: #717171;
+.cards p {
+  font-size: 10.81px;
+  font-weight: 600;
+  line-height: 18.97px;
+  color: #717171;
+}
+
+@media (max-width: 480px) {
+  .orderCards {
+    flex-direction: column;
+  }
+
+  .cards {
+    width: 356.23px;
+    height: 393.61px;
+    border-radius: 8.8px 0px 0px 0px;
+    padding-top: 90px;
+  }
+
+  .cards p {
+    font-family: Lato;
+    font-size: 19.79px;
+    font-weight: 600;
+    line-height: 23.75px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .orderCards {
+    flex-direction: column;
+  }
+
+  .cards {
+    width: 356.23px;
+    height: 393.61px;
+    border-radius: 8.8px 0px 0px 0px;
+    padding-top: 90px;
+  }
+
+  .cards p {
+    font-family: Lato;
+    font-size: 19.79px;
+    font-weight: 600;
+    line-height: 23.75px;
+    text-align: center;
+  }
 }

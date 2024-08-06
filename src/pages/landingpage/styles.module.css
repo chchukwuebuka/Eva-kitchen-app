@@ -59,6 +59,7 @@
 
 .herocard {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-self: center;
@@ -73,7 +74,7 @@
 .card {
   justify-content: center;
   align-content: center;
-  text-align: center; 
+  text-align: center;
   width: 300.45px;
   height: 138.84px;
   border-radius: 0.88px 79.42px 0.88px 79.42px;
@@ -92,26 +93,26 @@
 }
 
 .aboutus {
-  text-align: center; 
+  text-align: center;
   margin-top: 70px;
 }
 
-.aboutus h3{
+.aboutus h3 {
   font-family: Poppins;
-font-size: 38px;
-font-weight: 700;
-line-height: 40px;
-color: #000000;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #000000;
 }
 
-.aboutus p{
+.aboutus p {
   margin-bottom: 10px;
   font-family: Poppins;
-font-size: 18px;
-font-weight: 500;
-line-height: 40px;
-letter-spacing: 0.35em;
-color: #FF7913;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.35em;
+  color: #ff7913;
 }
 
 .food {
@@ -128,7 +129,6 @@ color: #FF7913;
   height: 70vh;
   margin-top: 20px;
   color: #717171;
-
 }
 
 .healthy {
@@ -138,12 +138,26 @@ color: #FF7913;
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
-  text-align: justified; 
+  text-align: justified;
   margin-top: 20px;
 }
 
-.healthy1{
+.healthy1 {
   margin-bottom: 30px;
+}
+
+.learnmoreBTN {
+  background: #ff7913;
+  color: #ffffff;
+  width: 167px;
+  height: 40px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.BTN {
+  margin-top: 20px;
 }
 
 .section {
@@ -165,4 +179,140 @@ color: #FF7913;
   font-weight: 700;
   line-height: 84px;
   text-align: left;
+}
+
+.choosemenu {
+  text-align: center;
+}
+
+.choosemenu h2 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #000000;
+}
+
+.choosemenu p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.35em;
+  color: #ff7913;
+}
+
+.menuCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 50px;
+}
+
+@media (max-width: 480px) {
+  .maskgroup {
+    display: none;
+  }
+
+  .innerhero {
+    margin-left: 24px;
+  }
+
+  .inner1 {
+    width: 350px;
+  }
+
+  .inner2 {
+    width: 350px;
+    margin-top: 4px;
+  }
+
+  .herocard {
+    row-gap: 50px;
+  }
+
+  .aboutus h3 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .aboutKit {
+    flex-direction: column;
+    height: 900px;
+  }
+
+  .healthy {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justified;
+  }
+
+  .section {
+    flex-direction: column;
+  }
+
+  .section h1 {
+    font-size: 22.33px;
+    font-weight: 700;
+    line-height: 29px;
+    width: 287.2px;
+    height: 41.96px;
+    margin-bottom: 90px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .maskgroup {
+    display: none;
+  }
+
+  .herocard {
+    row-gap: 50px;
+  }
+
+  .aboutKit {
+    flex-direction: column;
+    height: 900px;
+    margin-bottom: 20px;
+  }
+
+  .section {
+    flex-direction: column;
+  }
+
+  .section h1 {
+    font-size: 52.33px;
+    font-weight: 700;
+    line-height: 49px;
+    width: 487.2px;
+    height: 41.96px;
+    margin-bottom: 120px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero {
+    background-size: cover;
+    background-position: center;
+    height: 140vh;
+  }
+
+  .herocard {
+    row-gap: 50px;
+  }
+
+  .section h1 {
+    font-size: 52.33px;
+    font-weight: 700;
+    line-height: 49px;
+    width: 487.2px;
+    height: 41.96px;
+    margin-bottom: 120px;
+  }
 }

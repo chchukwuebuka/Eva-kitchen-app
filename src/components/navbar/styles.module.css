@@ -1,42 +1,108 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
 
-    .container{
-      display: flex;
-      justify-content: space-between;
-      background-color: transparent;
-      /* position: fixed;
-      top: 0; */
-    }
-
-    .EvaKitchenlogo{
-      display: block;
-	width: 150px;
-	height: 40px;
-	margin-left: 4rem;
+.EvaKitchenlogo {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin-left: 4rem;
   margin-top: 10px;
-    }
+}
 
-    .container ul {
-      display: flex;
-      
-      gap: 60px;
-      list-style-type: none;
-      align-items: center;
-      margin-right: 4rem;
-      margin-top: 10px;
-    }
-    
-    .linkItem {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-    }
+.container ul {
+  display: flex;
+  gap: 60px;
+  list-style-type: none;
+  align-items: center;
+  margin-right: 4rem;
+  margin-top: 10px;
+}
 
-    .linkItem:hover {
-      border-bottom: 2px  #FF7913 solid ;
-    }
+.linkItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 
-    .navlink{
-      color: #000000;
-      text-decoration: none;
-    }
-    
+.linkItem:hover {
+  border-bottom: 2px #ff7913 solid;
+}
+
+.navlink {
+  color: #000000;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .EvaKitchenlogo {
+    margin-left: 16px;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu.open {
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 50px;
+  }
+
+  .linkItem {
+    padding: 2px 0;
+    text-align: center;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .EvaKitchenlogo {
+    margin-left: 16px;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu.open {
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 50px;
+  }
+
+  .linkItem {
+    padding: 2px 0;
+    text-align: center;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
