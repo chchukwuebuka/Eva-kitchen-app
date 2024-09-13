@@ -48,7 +48,7 @@
   .hamburger {
     display: block;
     position: absolute;
-    margin-left: 370px;
+    right: 16px;
     margin-top: 20px;
   }
 
@@ -80,7 +80,7 @@
   .hamburger {
     display: block;
     position: absolute;
-    margin-left: 500px;
+    right: 16px;
     margin-top: 20px;
   }
 

@@ -54,16 +54,26 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
-  padding-left: 80px;
+  padding-left: 140px;
 }
 
-.menuCards {
+/* .menuCards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
   gap: 40px;
-  margin: 50px;
+  margin: 20px 0;
+  margin-left: 60px;
+} */
+
+.menuCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 70px; 
+  margin: 50px; 
+  margin-left: 100px;
 }
 
 @media (max-width: 480px) {
@@ -75,6 +85,10 @@
 
   .heromenu ul {
     flex-direction: row;
+  }
+
+  .menuCards {
+    margin-right: 62px;
   }
 }
 
@@ -93,11 +107,24 @@
     font-size: 40px;
     width: 400px;
   }
+
+  .menuCards > * {
+    flex: 1 1 calc(50% - 20px); 
+    justify-content: center;
+    margin-right: 90px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .herosection1 h1 {
     font-size: 60px;
     width: 700px;
+  }
+
+  .menuCards{
+    justify-content: center;
+    margin-right: 10px;
+    position: relative;
+    right: 50px;
   }
 }
