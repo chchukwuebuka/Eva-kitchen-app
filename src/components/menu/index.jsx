@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { Button } from "../button";
 import styles from "./styles.module.css";
 
@@ -14,9 +15,11 @@ export const Menu = (menuList) => {
             </p>
           </div>
           <p>{menuList.description}</p>
-          <div className={styles.menuBTN}>
-            <Button content="Order Now" className={styles.orderBTN} />
-          </div>
+          <NavLink to="./orderpage">
+            <div className={styles.menuBTN}>
+              <Button content="Order Now" className={styles.orderBTN} />
+            </div>
+          </NavLink>
         </div>
       </div>
     </div>

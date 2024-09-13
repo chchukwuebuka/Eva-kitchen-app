@@ -1,0 +1,154 @@
+.OrderSection {
+  display: flex;
+  width: 75rem;
+  justify-content: start;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+  margin-right: 0px;
+  font-family: "Poppins";
+  padding-bottom: 80px;
+  border-bottom: 2px #e5e5e5 solid;
+  /* background: #E5E5E5; */
+margin-bottom: 20px;
+}
+
+.OrderIMG {
+  width: 469px;
+  height: 491px;
+  border-radius: 8px;
+  border: 0.9px;
+}
+
+.OrderInfo {
+  margin-top: 30px;
+}
+
+.OrderSectionInfo {
+  display: flex;
+  /* align-items: center; */
+  gap: 60px;
+}
+
+.sectionInfo {
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 32.08px;
+  color: #ff7913;
+}
+
+.OrderBTN {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.OrderBTN h1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+  top: 9px;
+}
+
+.OrderBTN button {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 141, 35, 0.19),
+      rgba(255, 141, 35, 0.19)
+    ),
+    linear-gradient(0deg, rgba(255, 141, 35, 0.19), rgba(255, 141, 35, 0.19));
+  border: none;
+}
+
+.rice {
+  font-family: Open "Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.friedRice {
+  font-family: Open "Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  color: #00000099;
+}
+
+.currency {
+  font-family: "Open Sans";
+  font-size: 22.46px;
+  font-weight: 700;
+  line-height: 32.08px;
+  text-align: left;
+  color: #ff7913;
+}
+
+.ratingReview {
+  display: flex;
+  margin-top: 40px;
+  gap: 10px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.Orderbutton{
+      width: 200.26px;
+height: 50.37px;
+top: 770px;
+left: 875px;
+gap: 0px;
+border-radius: 40px;
+opacity: 0px;
+background: #FF7913;
+color: #ffffff;
+border: none;
+cursor: pointer;
+font-family: Open "Sans";
+font-size: 20px;
+font-weight: 700;
+line-height: 40px;
+text-align: center;
+margin-top: 30px;
+}
+
+.menuDishes{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      
+}
+
+#menuDishes{
+      margin-bottom: 50px;
+}
+
+.menuCards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; 
+      gap: 70px; 
+    }
+
+    .menuDishes h3{
+      font-family: "Poppins";
+font-size: 30px;
+font-weight: 700;
+line-height: 45px;
+text-align: left;
+color: #000000;
+margin-bottom: 50px;
+    }

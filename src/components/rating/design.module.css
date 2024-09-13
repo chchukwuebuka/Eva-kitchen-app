@@ -1,0 +1,9 @@
+.rating .icon {
+      font-size: 24px;
+      color: #ccc; 
+    }
+    
+    .rating .icon.filled {
+      /* color: #f5b301;  */
+      color: red;
+    }

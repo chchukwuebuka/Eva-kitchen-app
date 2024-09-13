@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button, Footer, Navbar } from "../../components";
 import styles from "./styles.module.css";
 import { Group4, Group5, Group6 } from "../../assets";
-import LeafletMap from "../../components/leafletMap";
+import { LeafletMap } from "../../components/leafletMap";
 
 export const ContactUs = () => {
   const [note, setNote] = useState("");

@@ -9,6 +9,7 @@ import callIcon from "./callIcon.png";
 import facebook from "./Facebook (1).png";
 import instagram from "./Instagram.png";
 import XIcon from "./XIcon.png";
-import toggle from "./toggle.png"
+import toggle from "./toggle.png";
+import arrowDown from "./arrowDown.png"
 
-export { Group4, Group5, Group6, car, dining, vector, envelopIcon, callIcon, facebook, XIcon, instagram, toggle  };
+export { Group4, Group5, Group6, car, dining, vector, envelopIcon, callIcon, facebook, XIcon, instagram, toggle, arrowDown  };

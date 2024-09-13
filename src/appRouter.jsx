@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import { AboutUs, ContactUs, Landingpage, Menupage } from "./pages";
+import { AboutUs, ContactUs, Landingpage, Menupage, OrderPage } from "./pages";
 
 const router = createBrowserRouter([
 	{
@@ -17,6 +17,10 @@ const router = createBrowserRouter([
 	{
 		path: "/contactus",
 		element: <ContactUs/>
+	},
+	{
+		path: "/orderpage",
+		element: <OrderPage/>
 	},
 	
 ]);
