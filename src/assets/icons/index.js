@@ -10,6 +10,8 @@ import facebook from "./Facebook (1).png";
 import instagram from "./Instagram.png";
 import XIcon from "./XIcon.png";
 import toggle from "./toggle.png";
-import arrowDown from "./arrowDown.png"
+import arrowDown from "./arrowDown.png";
+// import briefcase from "./briefcace.png";
+import briefcase  from "./briefcase.png";
 
-export { Group4, Group5, Group6, car, dining, vector, envelopIcon, callIcon, facebook, XIcon, instagram, toggle, arrowDown  };
+export { Group4, Group5, Group6, car, dining, vector, envelopIcon, callIcon, facebook, XIcon, instagram, toggle, arrowDown, briefcase  };

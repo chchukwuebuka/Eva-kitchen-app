@@ -10,7 +10,7 @@
   padding-bottom: 80px;
   border-bottom: 2px #e5e5e5 solid;
   /* background: #E5E5E5; */
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .OrderIMG {
@@ -103,52 +103,51 @@ margin-bottom: 20px;
   text-align: left;
 }
 
-.Orderbutton{
-      width: 200.26px;
-height: 50.37px;
-top: 770px;
-left: 875px;
-gap: 0px;
-border-radius: 40px;
-opacity: 0px;
-background: #FF7913;
-color: #ffffff;
-border: none;
-cursor: pointer;
-font-family: Open "Sans";
-font-size: 20px;
-font-weight: 700;
-line-height: 40px;
-text-align: center;
-margin-top: 30px;
+.Orderbutton {
+  width: 200.26px;
+  height: 50.37px;
+  top: 770px;
+  left: 875px;
+  gap: 0px;
+  border-radius: 40px;
+  opacity: 0px;
+  background: #ff7913;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-family: Open "Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 30px;
 }
 
-.menuDishes{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      margin-top: 30px;
-      
+.menuDishes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
-#menuDishes{
-      margin-bottom: 50px;
+#menuDishes {
+  margin-bottom: 50px;
 }
 
 .menuCards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center; 
-      gap: 70px; 
-    }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 70px;
+}
 
-    .menuDishes h3{
-      font-family: "Poppins";
-font-size: 30px;
-font-weight: 700;
-line-height: 45px;
-text-align: left;
-color: #000000;
-margin-bottom: 50px;
-    }
+.menuDishes h3 {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 50px;
+}
