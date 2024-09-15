@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import { useSelector } from "react-redux"; 
 import styles from "./styles.module.css";
-import { arrowDown, EvaKitchen, toggle } from "../../assets";
+import { arrowDown, briefcase, EvaKitchen, toggle } from "../../assets";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,6 +10,14 @@ export const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  
+  const cartItems = useSelector((state) => state.counter.items); 
+
+  const totalItemCount = cartItems.reduce((total, item) => total + item.quantity, 0);
+
+  useEffect(() => {
+    console.log("Cart updated", cartItems); 
+  }, [cartItems]);
 
   return (
     <nav className={styles.container}>
@@ -19,7 +28,6 @@ export const Navbar = () => {
           className={styles.EvaKitchenlogo}
         />
         <button className={styles.hamburger} onClick={toggleMenu}>
-          {/* ☰ */}
           <img src={toggle} alt="" />
         </button>
         <div className={`${styles.menu} ${isOpen ? styles.open : ""}`}>
@@ -47,13 +55,14 @@ export const Navbar = () => {
           </ul>
         </div>
       </div>
-      <div>
-        <div>
-        <p>Account</p>
-        <img src={arrowDown} alt="" />
+      <div className={styles.navAccountInfo}>
+        <div className={styles.navAccount}>
+          <p>Account</p>
+          <img src={arrowDown} alt="" />
         </div>
-        <div>
-          <p>Item</p>
+        <div id={styles.navAccount}>
+          <img src={briefcase} alt="" />
+          <p>{totalItemCount} Items</p> 
         </div>
       </div>
     </nav>

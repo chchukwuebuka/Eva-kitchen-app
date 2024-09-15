@@ -48,6 +48,49 @@
   display: none;
 }
 
+.navAccountInfo{
+  display: flex;
+  gap: 50px;
+  margin-right: 70px;
+}
+
+#navAccount{
+  display: flex;
+}
+
+#navAccount p{
+  font-family: "Inter";
+font-size: 18px;
+font-weight: 500;
+line-height: 21.78px;
+text-align: left;
+}
+
+#navAccount img{
+  width: 14px;
+height: 18px;
+margin-right: 8px;
+}
+
+.navAccount{
+  display: flex;
+}
+
+.navAccount p{
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  text-align: left;
+}
+
+.navAccount img{
+  width: 14px;
+height: 8px;
+margin-left: 8px;
+margin-top: 8px;
+}
+
 @media (max-width: 480px) {
   .EvaKitchenlogo {
     margin-left: 16px;
