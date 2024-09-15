@@ -5,10 +5,12 @@ import { formatCurrency } from "../../components/formatCurrency";
 import { useSelector, useDispatch } from "react-redux";
 import { decrement, increment, addItemToCart } from "../../state/counter/counterSlice";
 import Rating from "../../components/rating";
+import { useNavigate } from "react-router-dom";
 
 export const OrderPage = () => {
   const count = useSelector((state) => state.counter.value);
   const dispatch = useDispatch();
+  const navigate = useNavigate(); 
 
   const price = 1000;
 
@@ -45,15 +47,16 @@ export const OrderPage = () => {
   };
 
   const handleAddToCart = () => {
-      if (count > 0) {
-        dispatch(addItemToCart({ ...currentItem, quantity: count }));
-      } else {
-        alert("Please select a quantity before adding to cart");
-      }
-    };
+    if (count > 0) {
+      dispatch(addItemToCart({ ...currentItem, quantity: count }));
+      navigate("/accountpage");
+    } else {
+      alert("Please select a quantity before adding to cart");
+    }
+  };
 
-  console.log("currentItem", currentItem)
-  console.log("count", count)
+  console.log("currentItem", currentItem);
+  console.log("count", count);
 
   return (
     <div>
@@ -80,7 +83,7 @@ export const OrderPage = () => {
             <Button
               content="Add to Cart"
               className={styles.Orderbutton}
-              onClick={handleAddToCart} 
+              onClick={handleAddToCart}
             />
           </div>
         </div>

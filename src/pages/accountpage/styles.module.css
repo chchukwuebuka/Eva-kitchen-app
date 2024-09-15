@@ -1,0 +1,272 @@
+.AccounPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 40px;
+  box-sizing: border-box;
+  height: auto;
+  font-family: "inter";
+  gap: 45px;
+}
+
+.AccounPageInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 44rem;
+  height: auto;
+  justify-content: center;
+  border-radius: 10px;
+  background: #fffaf6;
+}
+
+.AccounInfo {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.AccounInfo p {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  color: #2d3748;
+}
+
+#account {
+  color: #ff8d23;
+}
+
+.AccounInfos {
+  font-family: "Inter";
+  width: 34rem;
+  margin-left: 70px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  color: #000000;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AccounDetail {
+  width: 34rem;
+  border-radius: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 16px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background: #ff8d2330;
+  border: none;
+}
+
+label {
+  margin-top: 30px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #718096;
+}
+
+.passwordWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.passwordInput {
+  width: 100%;
+  padding-right: 50px;
+}
+
+.togglePassword {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.accountBTN {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#accountBTN {
+  display: flex;
+  justify-content: end;
+  width: 34rem;
+  gap: 30px;
+}
+
+.accountBTN button {
+  width: 200px;
+  padding: 14px;
+  border-radius: 4px;
+  background: #ff7913;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #f7fafc;
+  border: none;
+  cursor: pointer;
+}
+
+.accountBTN p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #4a5568;
+  padding-top: 12px;
+}
+
+.shippingBTN {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#shippingBTN {
+  display: flex;
+  justify-content: end;
+  width: 34rem;
+  gap: 30px;
+  border-top: 1px solid #e2e8f0;
+  padding: 50px 0;
+}
+
+.shippingBTN button {
+  width: 250px;
+  padding: 14px;
+  border-radius: 4px;
+  background: #ff7913;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #f7fafc;
+  border: none;
+  cursor: pointer;
+}
+
+.shippingBTN p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #4a5568;
+  padding-top: 12px;
+}
+
+.cartImage {
+  width: 330px;
+  height: 160px;
+  margin-top: 10px;
+  object-fit: cover;
+}
+
+.AccounPageInfo1 {
+  width: 433px;
+  border-radius: 10px;
+  background: #fffaf6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AccounPageInfo1 h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  color: #000000;
+  padding-top: 40px;
+}
+
+.cartList li {
+  list-style-type: none;
+}
+
+.cartDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartTitle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  color: #000000;
+}
+
+.cartPrice {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  text-align: left;
+  color: #000000;
+  margin-top: 6px;
+}
+
+.cartQuantity {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  color: #000000;
+}
+
+.cartItemDetails2 {
+  margin-top: 20px;
+}
+
+.subtotalDetails {
+  margin-top: 30px;
+}
+
+.cartSubtotal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.cartSubtotalp {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  color: #4a5568;
+}
+
+.currencyValue {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  color: #2d3748;
+}
+
+.total {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  text-align: left;
+  color: #2d3748;
+}
