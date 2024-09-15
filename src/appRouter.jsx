@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import { AboutUs, ContactUs, Landingpage, Menupage, OrderPage } from "./pages";
+import { AboutUs, AccounPage, ContactUs, Landingpage, Menupage, OrderPage } from "./pages";
 
 const router = createBrowserRouter([
 	{
@@ -21,6 +21,10 @@ const router = createBrowserRouter([
 	{
 		path: "/orderpage",
 		element: <OrderPage/>
+	},
+	{
+		path: "/accountpage",
+		element: <AccounPage/>
 	},
 	
 ]);

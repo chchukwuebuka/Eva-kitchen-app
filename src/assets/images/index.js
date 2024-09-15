@@ -8,10 +8,11 @@ import ora from "./ora.png";
 import whiterice from "./whiterice.png";
 import jellof from "./jellof.png";
 import egwusi from "./egwusi.png";
-import buffe from "./buffe.png"
-import chef from "./chef.png"
-import pot from "./pot.png"
-import lady from "./lady.png"
+import buffe from "./buffe.png";
+import chef from "./chef.png";
+import pot from "./pot.png";
+import lady from "./lady.png";
+import wizard from "./wizard.png"
 
-export { EvaKitchen, MaskGroup, kitchenimg, food, fried, okro, ora, whiterice, jellof, egwusi, buffe, chef, pot, lady };
+export { EvaKitchen, MaskGroup, kitchenimg, food, fried, okro, ora, whiterice, jellof, egwusi, buffe, chef, pot, wizard, lady };
 
