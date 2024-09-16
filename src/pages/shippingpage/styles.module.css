@@ -1,0 +1,196 @@
+.ShippingPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 40px;
+  box-sizing: border-box;
+  height: auto;
+  font-family: "inter";
+  gap: 45px;
+  margin-bottom: 50px;
+}
+
+.ShippingPageInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 44rem;
+  height: auto;
+  justify-content: center;
+  border-radius: 10px;
+  background: #fffaf6;
+}
+
+.shippingInfo {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+#shippingInfo {
+  display: flex;
+  justify-content: start;
+  width: 36rem;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.shippingInfo p {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  color: #2d3748;
+}
+
+#shipping {
+  color: #ff8d23;
+}
+
+.shippingheader {
+  font-family: "Inter";
+  width: 36rem;
+  margin-left: 70px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  color: #000000;
+}
+
+.address {
+  display: flex;
+  justify-content: space-between;
+  width: 34rem;
+  font-family: "Inter";
+}
+
+.address h5 {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #2d3748;
+  padding-top: 16px;
+}
+
+.address select {
+  width: 278px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  background: #ffe5ce;
+  border: none;
+  cursor: pointer;
+}
+
+.shippingDetails {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.shippingDelivery p {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #718096;
+}
+
+.selectedAddress {
+  margin-top: 20px;
+}
+
+.shippingDeliveryInput {
+  width: 36rem;
+  padding: 20px 10px;
+  border-radius: 5px;
+  background: #ffe5ce;
+  margin-top: 20px;
+}
+
+#shippingDelivery {
+  margin-top: 20px;
+}
+
+.receivedDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.receivedDetailsInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 36rem;
+}
+
+.receivedDetailsInfo p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #718096;
+  margin-bottom: 20px;
+}
+
+.receivedInfo {
+  width: 212px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  background: #ffe5ce;
+}
+
+.receivedInfo1 {
+  width: 278px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  background: #ffe5ce;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  color: #2d3748;
+}
+
+.orderDetails {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.orderDetails2 {
+  display: flex;
+  justify-content: end;
+  width: 40rem;
+  padding-right: 38px;
+  padding-top: 50px;
+  border-top: 1px solid #e2e8f0;
+  gap: 50px;
+}
+
+.orderBTN {
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  opacity: 0px;
+  background: #ff7913;
+  color: #e2e8f0;
+  border: none;
+  cursor: pointer;
+}
+
+.orderDetails2 p {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #4a5568;
+  padding-top: 20px;
+}

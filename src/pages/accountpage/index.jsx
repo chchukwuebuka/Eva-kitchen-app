@@ -1,23 +1,20 @@
 import styles from "./styles.module.css";
-import { Button, Navbar } from "../../components";
+import { Button, Navbar, Payment } from "../../components";
 import { wizard } from "../../assets";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { formatCurrency } from "../../components/formatCurrency";
 import { setEmail, setPassword } from "../../state/counter/counterSlice";
+import { useNavigate } from "react-router-dom"; 
 
 export const AccounPage = () => {
   const dispatch = useDispatch();
   const email = useSelector((state) => state.counter.email);
   const password = useSelector((state) => state.counter.password);
+  const navigate = useNavigate();
 
   const [localEmail, setLocalEmail] = useState("");
   const [localPassword, setLocalPassword] = useState("");
   const [passwordVisible, setPasswordVisible] = useState(false);
-
-  const cartItems = useSelector((state) => state.counter.items);
-
-  console.log("cartItems", cartItems);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -32,13 +29,13 @@ export const AccounPage = () => {
     setPasswordVisible((prevVisible) => !prevVisible);
   };
 
-  const subtotal = cartItems.reduce((total, item) => {
-    return total + item.price * item.quantity;
-  }, 0);
-
-  const deliveryFee = 3.45;
-
-  const totalAmount = subtotal + deliveryFee;
+  const handleShippingDetailsClick = () => {
+      if (!email || !password) {
+        alert("Please log in to proceed to shipping details");
+      } else {
+        navigate("/shippingpage"); 
+      }
+    };
 
   return (
     <div>
@@ -97,93 +94,11 @@ export const AccounPage = () => {
           <div className={styles.shippingBTN}>
             <div id={styles.shippingBTN}>
               <p>Cancel order</p>
-              <Button content="Shipping details" />
+              <Button content="Shipping details" onClick={handleShippingDetailsClick} />
             </div>
           </div>
         </article>
-        <article className={styles.AccounPageInfo1}>
-          <div>
-            <h4>Order Summary</h4>
-            {cartItems && cartItems.length > 0 ? (
-              <ul className={styles.cartList}>
-                {cartItems.map((item, index) => (
-                  <li key={index} className={styles.cartItem}>
-                    <img
-                      src={item.foodImage}
-                      alt={item.title}
-                      className={styles.cartImage}
-                    />
-                    <div className={styles.cartDetails}>
-                      <div>
-                        <p className={styles.cartTitle}>
-                          <strong>{item.title}</strong>
-                        </p>
-                        <p className={styles.cartPrice}>
-                          Price: {formatCurrency(item.price * item.quantity)}
-                        </p>
-                      </div>
-                      <p className={styles.cartQuantity}>
-                        Quantity: {item.quantity}
-                      </p>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <p>No items in the cart</p>
-            )}
-            <div className={styles.cartItemDetails2}>
-              {cartItems && cartItems.length > 0 ? (
-                <ul className={styles.cartList}>
-                  {cartItems.map((item, index) => (
-                    <li key={index} className={styles.cartItem}>
-                      <img
-                        src={item.foodImage}
-                        alt={item.title}
-                        className={styles.cartImage}
-                      />
-                      <div className={styles.cartDetails}>
-                        <div>
-                          <p className={styles.cartTitle}>
-                            <strong>{item.title}</strong>
-                          </p>
-                          <p className={styles.cartPrice}>
-                            Price: {formatCurrency(item.price * item.quantity)}
-                          </p>
-                        </div>
-                        <p className={styles.cartQuantity}>
-                          Quantity: {item.quantity}
-                        </p>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              ) : (
-                <p>No items in the cart</p>
-              )}
-            </div>
-            <div className={styles.subtotalDetails}>
-              <div className={styles.cartSubtotal}>
-                <p>Subtotal</p>
-                <p className={styles.currencyValue}>
-                  {formatCurrency(subtotal)}
-                </p>
-              </div>
-              <div className={styles.cartSubtotal}>
-                <p>Delivery fee</p>
-                <p className={styles.currencyValue}>
-                  {formatCurrency(deliveryFee)}
-                </p>
-              </div>
-              <div className={styles.cartSubtotal}>
-                <p id={styles.total}>Total</p>
-                <p className={styles.currencyValue}>
-                  {formatCurrency(totalAmount)}
-                </p>
-              </div>
-            </div>
-          </div>
-        </article>
+        <Payment/>
       </section>
     </div>
   );
