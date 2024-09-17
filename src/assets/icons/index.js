@@ -11,7 +11,9 @@ import instagram from "./Instagram.png";
 import XIcon from "./XIcon.png";
 import toggle from "./toggle.png";
 import arrowDown from "./arrowDown.png";
-// import briefcase from "./briefcace.png";
+import searchIcon from "./searchIcon.png"
 import briefcase  from "./briefcase.png";
+import ellipse from "./ellipse.png";
 
-export { Group4, Group5, Group6, car, dining, vector, envelopIcon, callIcon, facebook, XIcon, instagram, toggle, arrowDown, briefcase  };
+
+export { Group4, Group5, Group6, car, dining, vector, envelopIcon, callIcon, facebook, XIcon, instagram, toggle, arrowDown, briefcase, searchIcon, ellipse };

@@ -1,0 +1,99 @@
+.orderHistorySection {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.orderHistoryContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 73rem;
+}
+
+.searBarDetailsInfos {
+  display: flex;
+  justify-content: end;
+  width: 73rem;
+}
+
+.searchBarContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 5px;
+  margin-top: 30px;
+  width: 32rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.searchIcon {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  margin-left: 6px;
+}
+
+.searBarDetails {
+  display: flex;
+  gap: 18rem;
+}
+
+.searchIconImage {
+  width: 37px;
+  height: 36px;
+  margin-top: 30px;
+}
+
+.orderList {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.ListOrder {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  text-align: left;
+  width: 73rem;
+  color: #4a5568;
+}
+
+.orderListHistory {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+  gap: 3rem;
+}
+
+.IDhistory {
+  width: 104px;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px;
+  border: 1px solid #00000080;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  color: #4a5568;
+}
+
+.checkmark {
+  width: 12px;
+}
+
