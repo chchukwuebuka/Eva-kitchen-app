@@ -61,7 +61,7 @@
   color: #717171;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .orderCards {
     flex-direction: column;
   }
@@ -79,6 +79,14 @@
     font-weight: 600;
     line-height: 23.75px;
     text-align: center;
+  }
+
+  .delivery p{
+    font-size: 18px;
+  }
+
+  .delivery h2 {
+    font-size: 24px;
   }
 }
 
