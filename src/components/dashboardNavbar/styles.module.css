@@ -1,38 +1,45 @@
-.container {
+.Dashboradcontainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: transparent;
-  border: 1px solid #E2E8F0;
-  padding: 16px;box-sizing: border-box;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.container1{
+.Dashboradcontainer1 {
   display: flex;
   justify-content: space-between;
-  gap: 8rem;
+  gap: 120px;
+  width: 100%;
 }
 
 .EvaKitchenlogo {
   display: block;
-  width: 150px;
-  height: 40px;
-  margin-left: 4rem;
+  width: 178px;
+  height: 34px;
+  margin-left:1rem;
   margin-top: 10px;
 }
 
-.container ul {
+.Dashboradcontainer ul {
   display: flex;
-  gap: 60px;
+  gap: 35px;
   list-style-type: none;
   align-items: center;
   margin-right: 4rem;
   margin-top: 20px;
+  width: 100%;
+}
+
+.DashboradNavbar1 li {
+  display: flex;
 }
 
 .linkItem {
   display: flex;
   align-items: center;
   gap: 5px;
+  margin-bottom: 20px;
 }
 
 .linkItem:hover {
@@ -44,46 +51,16 @@
   text-decoration: none;
 }
 
-/* .menu{
-  display: flex;
- justify-content: space-between;
- width: 62rem;
-} */
-
 .hamburger {
   display: none;
 }
 
-.navAccountInfo{
+.navAccount {
   display: flex;
-  gap: 50px;
-  margin-right: 70px;
-  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
-#navAccount{
-  display: flex;
-}
-
-#navAccount p{
-  font-family: "Inter";
-font-size: 18px;
-font-weight: 500;
-line-height: 21.78px;
-text-align: left;
-}
-
-#navAccount img{
-  width: 14px;
-height: 18px;
-margin-right: 8px;
-}
-
-.navAccount{
-  display: flex;
-}
-
-.navAccount p{
+.navAccount p {
   font-family: "Inter";
   font-size: 18px;
   font-weight: 500;
@@ -91,26 +68,59 @@ margin-right: 8px;
   text-align: left;
 }
 
-.navAccount img{
+.navAccount img {
   width: 14px;
-height: 8px;
-margin-left: 8px;
-margin-top: 8px;
+  height: 8px;
+  margin-left: 8px;
+  margin-top: 8px;
 }
 
-#additionalContent{
+.DashboradsearchContainer {
   display: flex;
-  gap: 55px;
+  align-items: center;
+  width: 8rem;
+  border-radius: 20px;
+  background: #ffffff;
+  height: 18px;
+  margin-bottom: 16px;
 }
 
-@media (max-width: 600px) {
+.DashboradsearchInput {
+  width: 7rem;
+  height: 18px;
+  border-radius: 20px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  padding-left: 10px;
+}
 
-  .navAccountInfo{
-    display: none;
-  }
+.DashboradsearchIcon {
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
 
+.searBarDetails {
+  display: flex;
+  gap: 18rem;
+}
+
+.ellipseSection {
+  display: flex;
+  gap: 40px;
+  margin-left: 60px; 
+  margin-bottom: 16px;
+}
+
+.ellipse {
+  width: 28px;
+  height: 28px;
+}
+
+@media (max-width: 480px) {
   .EvaKitchenlogo {
-    margin-left: 10%;
+    margin-left: 16px;
   }
 
   .hamburger {
@@ -128,9 +138,6 @@ margin-top: 8px;
     display: flex;
     background-color: #ffffff;
     margin-top: 50px;
-    position: absolute;
-    left: 5px;
-
   }
 
   .linkItem {
@@ -143,7 +150,7 @@ margin-top: 8px;
   }
 }
 
- @media (min-width: 601px) and (max-width: 1020px) {
+@media (min-width: 481px) and (max-width: 767px) {
   .EvaKitchenlogo {
     margin-left: 16px;
   }
@@ -157,11 +164,6 @@ margin-top: 8px;
 
   .menu {
     display: none;
-  }
-
-  .navAccountInfo{
-    position: absolute;
-    left: 20rem;
   }
 
   .menu.open {
@@ -181,4 +183,4 @@ margin-top: 8px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-} 
+}

@@ -5,6 +5,7 @@ import {
   ellipse,
   searchIcon,
 } from "../../assets";
+import { NavLink } from "react-router-dom";
 
 export const OrderHistory = () => {
   const inputRef = useRef(null);
@@ -33,7 +34,10 @@ export const OrderHistory = () => {
                   onClick={handleIconClick}
                 />
               </div>
+              <NavLink to="/dashboardpage">
+
               <img src={ellipse} alt="" className={styles.searchIconImage} />
+              </NavLink>
             </div>
           </div>
           <div className={styles.orderList}>

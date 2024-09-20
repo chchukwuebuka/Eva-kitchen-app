@@ -45,22 +45,22 @@ export const Navbar = ({ showOnlyHome, showAdditionalContent }) => {
                   {" "}
                   <li className={styles.linkItem}>
                     <NavLink to="/orderHistorypage" className={styles.navlink}>
-                    Order History
+                      Order History
                     </NavLink>
                   </li>
                   <li className={styles.linkItem}>
                     <NavLink to="" className={styles.navlink}>
-                    Messages
+                      Messages
                     </NavLink>
                   </li>
                   <li className={styles.linkItem}>
                     <NavLink to="" className={styles.navlink}>
-                    Wishlist
+                      Wishlist
                     </NavLink>
                   </li>
                   <li className={styles.linkItem}>
                     <NavLink to="" className={styles.navlink}>
-                    Products
+                      Products
                     </NavLink>
                   </li>
                 </div>

@@ -3,11 +3,10 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  width: 60rem;
 }
 
 .contactSectionInfo {
-  width: 60rem;
+  width: 80%;
 }
 
 .contactSectionInfo h3 {
@@ -21,12 +20,15 @@
 }
 
 .contact {
-  display: flex;
-  gap: 50px;
+ display: flex; 
+ justify-content: center;
+ flex-wrap: wrap;
+ gap: 50px;
 }
 
 .SectionInput {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -36,7 +38,7 @@ label {
 }
 
 .SectionInputInfo {
-  width: 337.66px;
+  width: 21rem;
   padding: 16px 8px;
   border-radius: 4.81px;
   background: #e9eaff;
@@ -97,6 +99,7 @@ textarea {
 
 .herocard {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -128,4 +131,34 @@ textarea {
 
 .leafLet{
       margin-top: 70px;
+}
+
+@media (max-width: 600px){
+
+  .SectionInput{
+    flex-direction: column;
+  }
+
+  .contactInput{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contactInput input{
+    width: 100%;
+  }
+
+  textarea{
+    width: 100%;
+  }
+
+  .herocard{
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px){
+  .herocard{
+    flex-direction: row;
+  }
 }
