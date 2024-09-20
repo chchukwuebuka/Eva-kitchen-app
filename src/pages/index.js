@@ -5,4 +5,5 @@ export * from "./contactUs";
 export * from "./orderPage";
 export * from "./accountpage"
 export * from "./shippingpage";
-export * from "./orderHistorypage"
+export * from "./orderHistorypage";
+export * from "./dashboardpage";

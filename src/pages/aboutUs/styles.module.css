@@ -13,7 +13,6 @@
   font-size: 26px;
   font-weight: 700;
   line-height: 84px;
-  width: 1025px;
   height: 168px;
   color: #ffffff;
   justify-content: center;
@@ -69,7 +68,7 @@
 
 .healthy1 {
   width: 402px;
-  height: 354px;
+  /* height: 354px; */
   border-radius: 25px 0px 0px 0px;
   font-size: 12px;
   font-weight: 400;
@@ -114,7 +113,6 @@
   font-size: 42px;
   font-weight: 700;
   line-height: 40px;
-  text-align: left;
 }
 
 .profile {
@@ -157,7 +155,7 @@
   margin-top: 60px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .AboutUssection {
     background-size: cover;
     background-position: center;
@@ -190,7 +188,7 @@
   }
 
   .testiCustomer h4 {
-    font-size: 26px;
+    font-size: 20px;
   }
 
   .profile {
@@ -198,12 +196,12 @@
   }
 
   .profile1 {
-    width: 414px;
+    /* width: 414px; */
     text-align: center;
   }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 601px) and (max-width: 1024px) {
   .aboutKit1 {
     flex-direction: column;
     height: 900px;
@@ -222,7 +220,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+/* @media (min-width: 768px) and (max-width: 1024px) {
   .AboutUssection1 {
     width: auto;
   }
@@ -233,4 +231,4 @@
     line-height: 66px;
     height: 148px;
   }
-}
+} */

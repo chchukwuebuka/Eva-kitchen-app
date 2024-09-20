@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import { AboutUs, AccounPage, ContactUs, Landingpage, Menupage, OrderHistory, OrderPage, ShippingPage } from "./pages";
+import { AboutUs, AccounPage, ContactUs, DashboardPage, Landingpage, Menupage, OrderHistory, OrderPage, ShippingPage } from "./pages";
 
 const router = createBrowserRouter([
 	{
@@ -33,6 +33,10 @@ const router = createBrowserRouter([
 	{
 		path: "/orderHistorypage",
 		element: <OrderHistory/>
+	},
+	{
+		path: "/dashboardpage",
+		element: <DashboardPage/>
 	},
 	
 ]);

@@ -1,8 +1,5 @@
 import {
   food,
-  Group4,
-  Group5,
-  Group6,
   MaskGroup,
   egwusi,
   fried,
@@ -10,6 +7,9 @@ import {
   ora,
   whiterice,
   okro,
+  clock,
+  light,
+  call,
 } from "../../assets";
 import { Button, Footer, Menu, Order } from "../../components";
 import { Navbar } from "../../components/navbar";
@@ -76,17 +76,17 @@ export const Landingpage = () => {
 
         <div className={Styles.herocard}>
           <div className={Styles.card}>
-            <img src={Group4} alt="Group4" className={Styles.groups} />
+            <img src={clock} alt="Group4" className={Styles.groups} />
             <p>10:00am - 07:00pm</p>
             <p>Working Hours</p>
           </div>
           <div className={Styles.card}>
-            <img src={Group5} alt=" Group5" className={Styles.groups} />
+            <img src={light} alt=" Group5" className={Styles.groups} />
             <p>Independence Layout Enugu</p>
             <p>Get Direction</p>
           </div>
           <div className={Styles.card}>
-            <img src={Group6} alt="Group6" className={Styles.groups} />
+            <img src={call} alt="Group6" className={Styles.groups} />
             <p>+234 706 121 1353</p>
             <p>Call Online</p>
           </div>
